@@ -1,6 +1,3 @@
-Sure, here's the complete README file formatted as a code block so you can copy it directly:
-
-````markdown
 # Mail Leads Project
 
 ## Overview
@@ -28,9 +25,10 @@ Mail Leads Project is a comprehensive application designed to manage and send em
 Clone the repository to your local machine using the following command:
 
 ```sh
-git clone https://github.com/yourusername/Mail Leads Project.git
-cd Mail Leads Project
+git clone https://github.com/BasharHabsh/mail_leads.git
+cd mail_leads
 ```
+
 ````
 
 ### Step 2: Install Dependencies
@@ -53,7 +51,7 @@ cp .env.example .env
 
 Open the `.env` file and configure your database and Mailtrap settings:
 
-```ini
+```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -155,3 +153,4 @@ For any questions or support, please contact [basharrhabsh@gmail.com](mailto:bas
 
 Make sure to replace placeholders such as `yourusername`, `your_database_name`, `your_database_username`, `your_database_password`, `your_mailtrap_username`, `your_mailtrap_password`, and your contact email with actual values relevant to your project.
 ```
+````
